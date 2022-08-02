@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+  overflow: visible; 
+}
+
+
+body{
+  background-image: url("./assets/cupp.png");
+  background-size: 100%;
+  width: 1440px;
+  height:1024px;
+}
+
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+.container .navbar .logo{
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  display: inline;
+}
+
+
+.container .navbar li{
+  position:relative;
+  left: 600px;
+  list-style-type: none;
+  display: inline;
+  float: left;
+  color: rgb(197, 197, 61);
+  overflow: visible;
+  padding: 25px;
+  top: 30px;
+  
+
+}
+.container .navbar .button-small{
+  display: inline;
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  background-color: rgb(249, 84, 84);
+  color: aliceblue;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+
+}
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+.container .hero .hero-heading{
+  position: absolute;
+  top: 200px;
+ display: inline;
+ font-family:"cursive" ,"Red Rose";
+ left: 280px;
+ font-size: 120px;
+ color: rgb(214, 214, 60);
+ text-align: center;
+ line-height: 105px;
+}
+
+.container .hero .button-large{
+  position: absolute;
+  display: inline;
+  bottom: 130px;
+  left: 700px;
+  background-color: rgb(250, 62, 62);
+  color: aliceblue;
+  font-size: 25px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+
+
+
+}
+
+.container .hero .bottom{
+position: absolute;
+display: inline;
+right: 40px;
+bottom: -200px;
+
+}
+
+
+/* ------------------------------ */
